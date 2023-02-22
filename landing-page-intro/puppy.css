@@ -1,0 +1,367 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.cover {
+    width: 100%;
+    height: 700px;
+    background-image: url('images/banner.jpg');
+    background-size: cover;
+    position: relative;  /* Read on this */
+}
+.cover-overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.1);
+}
+.cover-overlay > div  /* Read on this */ {
+    float: left;
+}
+.header {
+    width: 100%;
+    height: 50px;
+}
+.intro-statement-section {
+    width: 50%;
+    height: 700px;
+}
+.intro-number-section {
+    width: 50%;
+    height: 100%;
+}
+.number-box {
+    width: 100px;
+    height: 100px;
+    color: white;
+    position: absolute; /* Read on this */
+    bottom: 0;
+    font-weight: bold;
+    font-size: 55px;
+    right: 10%;
+    background-color: rgb(248, 148, 16);
+
+    /* Read on flexbox */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.second_cover{
+    width: 100%;
+    height: 800px;
+    background-image: url(images/about-img.jpg);
+    background-size: cover;
+    position: relative;
+}
+.second_overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.03);
+    float: left;
+}
+.about_dogs{
+    width: 50%;
+    height: 400px;
+    float:right;
+}
+.second_number{
+    width: 100%;
+    height: 400px;
+}
+
+.third_cover {
+    width: 100%;
+    height: auto;
+    background-color: rgb(248, 148, 16);
+    position: relative;
+}
+.third_overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.03);
+}
+.our-dogs-intro-statement-section {
+    width: 80%;
+    height: 20%;
+    margin: auto;
+    /* outline: 1px solid white; */
+    overflow: hidden;
+    text-align: end;
+}
+
+.gallery-grid-wrapper {
+    width: 80%;
+    height: auto;
+    margin: 0 auto 3% auto;
+    /* outline: 1px solid white; */
+    overflow: hidden;
+}
+.gallery-grid-60, .gallery-grid-40 {
+    float: left;
+}
+.gallery-grid-60 {
+    width: 60%;
+    height: 600px;
+    /* outline: 1px solid white; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.gallery-grid-40 {
+    width: 40%;
+    height: 600px;
+    /* outline: 1px solid white; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.gallery-grid-60 > div, .gallery-grid-40 > div {
+    width: 90%;
+    height: 90%; 
+    margin: auto;
+    /* outline: 1px solid white; */
+}
+.fourth_cover{
+    width: 100%;
+    height: 800px;
+    background-color:white;
+    float: left;
+
+}
+.fourth_paragraph{
+    width: 60%;
+    height: 700px;
+    float: left;
+    padding: 0.0005 0.5% 3% 0.0005%;
+    margin: auto;
+}
+.fparagraph{
+    width: 90%;
+    height: 600px;
+}
+.dog_pic_div{
+    width: 40%;
+    height: 760px;
+    float: left;
+}
+.dpic{
+    width: 84%;
+    height: 760px;
+    /* outline: 1px solid lavender; */
+}
+.third-number-section{
+    width: 100%;
+}
+.number {
+    width: 100px;
+    height: 100px;
+    color: white;
+    position: absolute; 
+    bottom: 0;
+    font-weight: bold;
+    font-size: 55px;
+    left: 10%;
+    background-color: rgb(248, 148, 16);
+
+    /* Read on flexbox */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fifth_cover{
+    width: 100%;
+    height: 700px;
+    background-image: url(images/email-img.jpg);
+    /* background-repeat: no-repeat; */
+    background-size:cover;
+    overflow: hidden;
+    position: relative;
+    right: 0;
+    /* background-position:center; */
+}
+.fifth_overlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    /* outline: 1px solid gray; */
+}
+form {
+    width: 80%;
+    /* height: 300px; */
+    background-color: rgba(255,255,255,0.1);
+    /* outline: 1PX solid lavender; */
+    margin: auto;
+    align-items: center;
+    padding: 2%;
+    overflow: hidden;
+    border-radius: 20px;
+}
+form > input[type=text], textarea {
+    width:96%;
+    background: transparent;
+    box-shadow: none;
+    border: 1px solid black;
+    padding: 2%;
+}
+form > input[type=text]::placeholder, textarea::placeholder {
+    font-size: 20px;
+}
+form > input[type=submit]{
+    font-size: 20px;
+    border-radius: 15px;
+    background-color: orange;
+    width: 115px;
+    padding: 1%;
+    color: white;
+    margin: auto;
+    border:0;
+    display: block;
+}
+.sixnewsletter{
+    width: 100%;
+    height: 300px;
+    background-color: orange;
+}
+.justnewsletter{
+    width: 95%;
+    height: 200px;
+    /* margin: 3%; */
+}
+.last_cover{
+    width: 100%;
+    height: 808px;
+    margin: auto;
+    background-color: rgb(94, 83, 83);
+}
+.fdiv{
+    float: left;
+    width: 100%;
+    height: 155px;
+    /* overflow: hidden; */
+}
+.menu{
+    float: left;
+    margin: auto;
+    width: 25%;
+    height: 100%;
+}
+.all_contained{
+    width: 100%;
+    height: 500px;
+    margin: auto;
+    float: left;
+}
+.seperate_div{
+    float: left;
+    margin: auto;
+    width: 25%;
+    height: 450px;
+}
+.all_app{
+    width: 100%;
+    margin: auto;
+    float: left;
+    height: 150px;
+}
+.enteremail{
+    font-size: 20PX;
+    width: 83%;
+    height: 60px;
+    text-indent: 15px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border: none;
+    background-color: white;
+    padding-left: 0;
+    padding: 0;
+    float: left;
+    margin-left: 2%;
+}
+.subscribe{
+    font-size: 20px;color: white;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: none ;height:60px;
+    width: 15%;
+    background-color: black;
+    padding-left: 0;
+    padding: 0;
+}
+.instagrampup{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+.puppic{
+    width: 38.7%;
+    height: 130px;
+    float: left;
+}
+.socialmedia{
+    width: 35%;
+    height: 60px;
+    margin: auto;
+    margin-top: 12px;
+}
+.mysocialmedia{
+    width: 15%;
+    float: left;
+    margin-top: 10px;
+    height: 30px;
+    margin: 10px;
+}
+
+ img {
+    width: 100%; 
+    height: 100%;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .cover {
+        width: 100%;
+        height: 700px;
+        overflow: hidden;
+    }
+    .cover-overlay {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+    .header {
+        width: 100%;
+        height: 50px;
+    }
+    .header {
+        width: 100%;
+        height: 50px;
+    }
+    .intro-statement-section {
+        width: 50%;
+        height: 700px;
+    }
+    .intro-number-section {
+        width: 50%;
+        height: 100%;
+    }
+    
+    
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}
