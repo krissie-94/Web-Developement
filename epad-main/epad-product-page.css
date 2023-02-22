@@ -1,0 +1,251 @@
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    color: white;
+}
+h2{
+    text-align: center;
+    color: #2D56A3;
+    
+}
+.app-color-1{
+    color: #2D56A3 !important;
+}
+
+.welome-bground{
+    background-image: url('images/epad-img-6.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 490px;
+}
+.welcome-overlay{
+    background: rgba(136, 133, 133, 0.5);
+    color: white;
+}
+.bg-img{
+    background-image: url('images/epad-img-4.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height:350px;
+}
+.nav-font{
+    font-size: 15px;
+}
+.nav-bar-bgcolor{
+    background-color:rgb(202, 202, 202);
+}
+h4{
+    color: #2D56A3;
+    text-align: center;
+    font-family:sans-serif;
+}
+.about-epadpg{
+    background-color: white;
+    margin-top: 50px;
+}
+#aboutepad{
+    margin-top: 150px;
+}
+h5{
+    text-align: center;
+    color: #2D56A3;
+    margin-right: 1px;
+    margin-right: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /* display: -webkit-box;
+    line-clamp: 3;
+    box-orient: vertical; */
+}
+.bg-img-four{
+    background-image: url('images/epad-img-3.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height:100px;
+    border-radius: 50%;
+    filter: drop-shadow(10px 10px 4px #e4e1e1);
+}
+.bg-img-three{
+    background-image: url('images/epad-img-5.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height:100px;
+    border-radius: 50%;
+    filter: drop-shadow(10px 10px 4px #e4e1e1);
+    
+}
+.scnd-row-bg{
+    background-color: white;
+}
+.btn{
+    width: 120px;
+    height: 55px;
+}
+.bg-img-two{
+    background-image: url('images/epad-img-2.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height:100px;
+    border-radius: 100%;
+    filter: drop-shadow(10px 10px 4px  #e4e1e1);
+}
+.bg-imgone-for-healthcenter{
+    background-image: url('images/epad-img1.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height:100px;
+    border-radius: 100%;
+    filter: drop-shadow(10px 10px 4px  #e4e1e1);
+}
+.bg-imgtwo-for-healthcenter{
+    background-image: url('images/epad-img-4.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height:100px;
+    border-radius: 100%;
+    filter: drop-shadow(10px 10px 4px  #e4e1e1);
+}
+.bg-imgthree-for-healthcenter{
+    background-image: url('images/epad-img-8.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height:100px;
+    border-radius: 100%;
+    filter: drop-shadow(10px 10px 4px  #e4e1e1);
+}
+.users-pargs{
+    color: black;
+    text-align: center;
+    font-size: 13px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.userandhcenter{
+    color: #2D56A3;
+    font-size: 18px;
+}
+.navbar{
+    font-size: 25px;
+    /* margin-bottom: 10rem; */
+}
+.nav-item{
+    color: rgb(47, 47, 224);
+}
+
+.formuserdetails{
+    width: 100%;
+    text-align: center;
+    height: 50px;
+    border-style: none;
+    color: gray;
+    
+}
+.pricing-planprg{
+    text-align: center;
+}
+.usermessage{
+    width: 100%;
+    text-align: center;
+    height: 200px;
+    border-style: none;
+}
+.sendbtn{
+    width: 25%;
+    height: 40px;
+    background-color:black;
+    border-style: none;
+    color: white;
+    font-size: 20px;
+    border-radius: 14px;
+    align-content: center;
+
+}
+.ourcaontactus{
+    overflow: hidden;
+    text-align: center;
+    color: gray;
+    font-size: 18px;
+    background-color: white;
+}
+.callicon{
+    width: 70px;
+    height: 39px;
+    padding: 15px;
+}
+.contactbg{
+    background-color: white;
+}
+.testimonials-prg{
+    text-align: center;
+    /* color: white; */
+    font-size: 12px;
+}
+
+.testimonial-img-one{
+    background-image: url('images/download.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height:90px;
+    border-radius: 100%;
+    filter: drop-shadow(10px 10px 4px  #e4e1e1);
+}
+.testimonial-img-two{
+    background-image: url('images/images\ \(1\).jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height:90px;
+    border-radius: 100%;
+    filter: drop-shadow(10px 10px 4px  #e4e1e1);
+}
+.testimonial-img-three{
+    background-image: url('images/images\ \(6\).jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height:90px;
+    border-radius: 100%;
+    filter: drop-shadow(10px 10px 4px  #e4e1e1);
+}
+
+.userp:not(:active) {
+    /* now keep red background for 1s */
+    transition: background-color 1000ms step-end;
+}
+
+.userp:active {
+   background-color:#88dbd6;
+    text-align: center;
+}
+.userp{
+    text-align: center;
+    transition: transform .2s;
+}
+.userp:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+}
+.healthcenter:hover{
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+.healthcenter{
+    transform: transform .2s;
+    text-align: center;
+}
+.healthcenter:active {
+    background-color:#88dbd6;
+    text-align: center;
+}
+
+#healthcenterview:hover{
+    cursor: pointer;
+}
+#userview{
+    cursor: pointer;
+}
+.display-none{
+    display: none !important
+}
