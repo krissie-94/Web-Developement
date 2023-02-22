@@ -1,0 +1,59 @@
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+.welome-bground{
+    background-image: url('images/epad-img-6.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 450px;
+}
+.welcome-overlay{
+    background: rgba(136, 133, 133, 0.5);
+    color: white;
+}
+.bg-img{
+    background-image: url('images/epad-img-4.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height:350px;
+}
+h2{
+    color: blue;
+    text-align: center;
+    font-family:sans-serif;
+}
+h5{
+    margin-left: 74px;
+    text-align: center;
+    color: blue;
+}
+.bg-img-four{
+    background-image: url('images/epad-img-3.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height:150px;
+    margin-left: 74px;
+}
+.bg-img-three{
+    background-image: url('images/epad-img-5.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height:150px;
+    margin-left: 74px;
+}
+.scnd-row-bg{
+    background-color: whitesmoke;
+}
+.bg-img-two{
+    background-image: url('images/epad-img-2.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height:150px;
+    margin-left: 74px;
+}
+.sub-pargs{
+    text-align: center;
+    margin-left: 40px;
+}
+

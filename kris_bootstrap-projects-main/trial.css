@@ -1,0 +1,131 @@
+.background-im{
+    background-image: url('istockphoto.jpg') ;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+.Video-div{
+   height: 330px;
+}
+.background-overlay{
+    background-color: rgba(13, 13, 19, 0.66);
+    height: 600px;
+    overflow: hidden;
+}
+.top-socialicons{
+    text-align:center ;
+}
+.top-h1{
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.middle-h1{
+    font-size: 43px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    text-align: left;
+}
+
+.subscribebtn{
+    background-color:gray;
+    color:black;
+    border-radius: 10px;
+    border-style: none;
+    font-size: 26px;
+    font-family: monospace;
+}
+.middle-contain{
+    background-color: rgb(245, 245, 245);
+}
+.c-fluidbackground-color{
+    background-color: rgb(245, 245, 245) ;
+}
+.girl-hatdiv{
+    background-color: rgb(245, 245, 245) ;
+}
+.man-hatdiv{
+    background-color: white ;
+}
+.runway-hatdiv{
+    background-color: white;
+}
+.middle-h2{
+    color: black;
+    text-align: left;
+}
+.Popular-post{
+    background-color: white;
+}
+.Popular-post2{
+    background-color: white;
+    height: 200px;
+}
+.on-boarders-bg{
+    background-color: gray;
+}
+.ad{
+    background-color: gray;
+    height: 140px;
+    text-align: center;
+}
+.like-btn{
+    width: 80px;
+    height: 30px;
+    color: black;
+}
+.first-avatatcolum{
+    background-color: black;
+}
+.advertise{
+    background-color: black;
+}
+.tags{
+    background-color: black;
+}
+.Inspiration{
+    background-color: black;
+}
+.follow-me{
+    background-color: black;
+}
+.detail-follow{
+    background-color: gray;
+    height: 40px;
+}
+.detail-email{
+    background-color: gray;
+}
+.finspiration-pic{
+    background-image: url('jeans.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.your-ad{
+    background-color: black;
+}
+.subscribe-btn{
+    color: white;
+    background-color: red;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-style: none;
+    width: 100%;
+    height: 40px;
+}
+.last-row{
+    background-color: #ffa726;
+    height: 80px;
+}
+.back-btn{
+    width: 145px;
+    height: 35px;
+    border-style: none;
+    background-color: black;
+    color: white;
+}
+.powered-tamma{
+    font-size: 18px;
+}
+
+.many-more:hover {
+    cursor: pointer;
+}

@@ -1,0 +1,205 @@
+.f-menu{
+    color: white;
+    font-size: 20px;
+    background-color: rgb(72, 72, 161);
+    overflow: hidden;
+    margin-top: 95px;
+    margin-left: 20px;
+}
+.fh-menu{
+    background-color: rgb(72, 72, 161);
+    color: white;
+}
+.nav-container{
+    text-align: center;
+}
+.contain{
+    width: auto;
+    overflow: hidden;
+}
+.f-row{
+    background-color: rgb(234, 234, 245);
+    overflow:hidden;
+    text-align: center;
+}
+.icons{
+    height: 100%;
+}
+.nav-bar{
+    background-color: rgb(72, 72, 161);
+    color: white;
+    text-align: center;
+}
+
+.animation-img{
+    transition:  width 3s;
+    transition-delay: 1s;
+}
+.animation-img:hover{
+    width: 300px;
+}
+.right-menu{
+    margin-left: 220px;
+    color: white;
+}
+.right-menus{
+    margin-left: 20px;
+    color: white;
+}
+.eum-ipsam{
+    margin: top 10px; 
+    background-color: rgb(224, 224, 240);
+}
+.progress-bar{
+    background-color: white;
+    margin-top: 10px;
+}
+.progress-contain{
+    width: 90%;
+    background-color: rgb(192, 192, 192);
+    border: none;
+
+}
+.skill{
+    color: white;
+    background-color: rgb(72, 72, 161);
+    font-size: 10px;
+    padding: 1%;
+    text-align: right;
+    height: 20px;
+}
+.html{
+    width: 100%;
+
+}
+.css{
+    width: 88%;
+}
+.javascript{
+    width: 77%;
+}
+.photoshop{
+    width: 55%;
+    margin-bottom: 10px;
+}
+.all-textcolor{
+    color:  rgb(72, 72, 161);
+}
+.small-folders{
+    margin: auto;
+    width: 50px;
+}
+.create-margin{
+    padding: 5px;
+    margin: 2px;
+    background-color: white;
+}
+.right-column-pbar{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+
+}
+.background-skyscrapper{
+    background-image:url(skyscrapers.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    overflow: hidden;
+}
+.overlay{
+
+    background-color: rgba(54, 42, 167, 0.66);
+    height: 450px;
+}
+.call-to-action{
+    margin-top: 80px;
+    width: 160px;
+    height: 50px;
+    border-radius: 20px;
+    color: white;
+    background-color: rgba(54, 42, 167, 0.66)  ;
+    border-color: white;
+    overflow: hidden;
+    margin-left: 80px;
+}
+.portfolio-apps{
+    color: gray;
+    text-align: center;
+}
+.all-my-headings{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 10px;
+    color: rgb(72, 72, 161);
+}
+.team{
+background-color:  rgb(234, 242, 250);
+overflow: hidden;
+}
+.team-icons{
+    color:  rgba(54, 42, 167, 0.66);
+}
+.team-headings{
+    color:  rgba(54, 42, 167, 0.66) ;
+    font-size: 20px;
+}
+.pricing-headings{
+    color: rgba(54, 42, 167, 0.66) ;
+    font-size: 20px;
+}
+ul{
+    list-style-type:none;
+    color: gray;
+}
+.fa-check{
+    color:forestgreen;
+    margin-right: 5px;
+}
+.pricing-button{
+    border-color: skyblue;
+    border-radius: 40px;
+    width: 140px;
+    height: 50px;
+    background-color: white;
+    color: skyblue;
+    border-style:solid;
+    margin: 9px;
+}
+.pricing-butn{
+    border-color: skyblue;
+    border-radius: 40px;
+    width: 140px;
+    border-bottom: turquoise;
+    border-right: turquoise;
+    height: 50px;
+    background-color: skyblue;
+    color: white;
+    margin: 10px;
+}
+.dropdown-row{
+    background-color:  rgb(240, 250, 252);
+    overflow: hidden;
+}
+.form-select{
+    border: none;
+    height: 75px;
+}
+.contact-icons{
+    color: skyblue;
+}
+.Newsletter{
+    background-color:rgb(221, 216, 216);
+}
+.last-heading{
+    font-size: 20px;
+    color: rgb(72, 72, 161);
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.last-container{
+    background-color: blueviolet;
+}
+.greater-then{
+    color: skyblue;
+}
