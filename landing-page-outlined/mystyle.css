@@ -1,0 +1,28 @@
+aside {
+    width: 30%;
+    float: left;
+    overflow: hidden;
+}
+.container {
+    width:90%;
+    margin: auto;
+}
+section {
+    width: 70%;
+    float: left;
+    overflow: hidden;
+}
+
+/* colors */
+.peach {
+    background-color: lightgoldenrodyellow;
+}
+
+/* media queries */
+@media only screen and(max-width: 900px ), (max-device-width: 900px ) {
+    aside, section {
+        width: 100%;
+        float: none;
+        overflow: hidden;
+    }
+}
